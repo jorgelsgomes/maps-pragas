@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="https://openlayers.org/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Using OpenLayers with Vite</title>
+  </head>
+  <body>
+    <div class="map-wrapper">
+      <div id="map"></div>
+      <div id="legend" class="legend" aria-label="Legenda do monitoramento" hidden>
+        <div class="legend-header">Legenda</div>
+        <div class="legend-item">
+          <span class="legend-dot legend-dot--green"></span>
+          <span>Válvula: A13</span>
+        </div>
+        <div class="legend-item">
+          <span class="legend-dot legend-dot--red"></span>
+          <span>Praga: Cigarrinha</span>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
